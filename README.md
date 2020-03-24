@@ -34,17 +34,16 @@
 
 ### [Scenario 1](http://www.higis.org.cn:8080/hibuffer10million/) (Spatial Buffer Analysis)
 
-Scenario 1 shows spatial buffer analysis 10-million-scale datasets. The interface of the demonstration is simple to use, choose a dataset, input the buffer radius and click the Enter button, then the result layer will be added to the map in real-time. In addition, as the analysis results are preserved in the \textbf{Result Pool}, the color and transparency of the result layer can be adjusted with even faster response. Fig 1 shows the analysis results. 
-
-
+Scenario 1 shows spatial buffer analysis 10-million-scale datasets. The interface of the demonstration is simple to use, choose a dataset, input the buffer radius and click the Enter button, then the result layer will be added to the map in real-time. Fig 1 shows the analysis results.  The results can be used for resource
+allocation, land planning and many other related fields.
 
 ![fig1](./figures/fig1.JPG)
 
-*Fig 1. Buffer analysis of 10-million-scale.*
+*Fig 1. Buffer analysis of  large-scale datatsets.*
 
 ### [Scenario 2](http://www.higis.org.cn:8080/hibo/) (Spatial Overlay Analysis)
 
-Scenario 2 shows an application of overlay analysis for housing site selection. Suppose that a new immigrant in Spain wants to choose a place to live which meets the following conditions: 1) convenient to traffic (within 500m from Highways); 2) convenient for children education (within 200m from Education amenities); 3) convenient to the medical care (within 2000m from Healthcare amenities); 4) near to leisure places (within 1000m from Entertainment, Arts & Culture amenities or Waterways); 5) quiet (at least 300m away from Railways). The conditions can be translated into the following expression. Enter the expression and click the Create-Overlay-Layer button (Fig 2), then the result layer will be added to the map in real-time. Enter the expression and click the Create-Overlay-Layer button, then the result layer will be added to the map in real-time. Fig 3 shows the analysis results, in which the red areas are the recommended housing places for the immigrant.
+Scenario 2 shows an application of overlay analysis for housing site selection. Suppose that a new immigrant in Spain wants to choose a place to live which meets the following conditions: 1) convenient to traffic (within 500m from Highways); 2) convenient for children education (within 200m from Education amenities); 3) convenient to the medical care (within 2000m from Healthcare amenities); 4) near to leisure places (within 1000m from Entertainment, Arts & Culture amenities or Waterways); 5) quiet (at least 300m away from Railways). The conditions can be translated into the following expression. Enter the expression and click the Create-Overlay-Layer button (Fig 2), then the result layer will be added to the map in real-time. Enter the expression and click the Create-Overlay-Layer button, then the result layer will be added to the map in real-time. Fig 3 shows the analysis results, in which the red areas are the recommended housing places.
 
 
 ![eq](./figures/eq.JPG)
@@ -58,22 +57,20 @@ Scenario 2 shows an application of overlay analysis for housing site selection. 
 
 *Fig 3. Overlay analysis for housing site selection*
 
-### Scenario 3 (Geospatial Data Visualization)
+### Scenario 3 (Raw Data Exploration)
 
 [Scatter plot](http://www.higis.org.cn:8080/hivision/)/ [Patterns filling for polygon objects](http://www.higis.org.cn:8080/hivision_with_pattern/)/ [Visual analysis of trajectories](http://www.higis.org.cn:8080/TrajVISDEMO/)
 
-Scenario 3 demonstrates the ability to visualize large-scale geospatial data in DiSA. Fig 4 shows the different rendering styles. Specifically, patterns filling is supported for polygon objects and dataset can be plotted with different styles according to the attributes of each 
-spatial object (e.g., the trajectories can be rendered according to the speeds or directions).
-
-
+Scenario 3 demonstrates the ability to provide an interactive exploration of massive raw data in DiSA. Fig 4 shows the visualization results with different rendering styles. Specifically, patterns filling is supported for polygon objects and dataset can be plotted with different styles according to the attributes of each spatial object (e.g., the trajectories can be rendered according to the speeds or directions). Raw data exploration provides access to observe large-scale unknown spatial datasets, which is important to discover implicit in-
+formation and parameter settings for further processing. 
 
 ![fig4](./figures/fig4.JPG)
 
-*Fig 4 Data visualization with various styles.*
+*Fig 4 Data exploration with various styles.*
 
 ### [Scenario 4](http://www.higis.org.cn:8080/CellTowerDEMO/) (Global Cellular Signal Strength Analysis)
 
-DiSA can also be applied to more complex spatial analysis. Defined as the received signal power in mobile phones, cellular signal strength (CSS) can be used for the geographic analysis of information flows. Scenario 4 provides an interactive visualization of global CSS using more than 40 million base stations. The CSS is calculated based on the Friis law, which assumes that average received power decreases logarithmically with distance. As can be seen from Fig 5, highly informative regions are distributed in North America, Europe, and East Asia, while Africa is relatively underdeveloped
+DiSA can be applied to some complex spatial analysis problems. Scenario 4 provides real-time analysis of global cellular signal strength (CSS). To the best of our knowledge, this is the first interactive map of global CSS using more than 40 million base stations. CSS reflects the urbanization variables such as population, gross domestic product, built-up area and electric power consumption.  Fig 5 shows the visualization effects of global CSS in DiSA, and it can be used for the geographic analysis of information flows.
 
 
 
