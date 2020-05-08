@@ -37,7 +37,7 @@
 Scenario 1 shows spatial buffer analysis 10-million-scale datasets. The interface of the demonstration is simple to use, choose a dataset, input the buffer radius and click the Enter button, then the result layer will be added to the map in real-time. Fig 1 shows the analysis results.  The results can be used for resource
 allocation, land planning and many other related fields.
 
-[fig1](./figures/fig1.JPG)
+![fig1](./figures/fig1.JPG)
 
 *Fig 1. Buffer analysis of  large-scale datatsets.*
 
