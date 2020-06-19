@@ -9,12 +9,12 @@
 
 | Dataset |Scenario |Records |Size} |
 | -------------- | ---------- | ---------- | -------------------- |
-| China POI |1, 3 |20,258,450  |20,258,450 points |
-| China Road |1, 3 |21,898,508  |163,171,928 segments |
-| China Farmland |1, 3 |10,520,644  |133,830,561 edges |
-| [Spain OSMDataset](https://download.geofabrik.de/europe/spain-latest.osm.pbf) |2 |7,613,793  |87,060,893 items |
+| China POI |1, 2 |20,258,450  |20,258,450 points |
+| China Road |1, 2 |21,898,508  |163,171,928 segments |
+| China Farmland |1, 2 |10,520,644  |133,830,561 edges |
 | [Xian Trajectories](https://outreach.didichuxing.com/research/opendata) | 1 |148,747  |37,268,701 segments |
 | [Chengdu Trajectories](https://outreach.didichuxing.com/research/opendata) | 1 |267,862  |52,839,430 segments |
+| [Spain OSMDataset](https://download.geofabrik.de/europe/spain-latest.osm.pbf) | 3 |7,613,793 |87,060,893 items |
 | [CDMA BaseStations](https://opencellid.org/) | 4 | 554,364 | 554,364 points |
 | [GSM BaseStations](https://opencellid.org/) | 4 | 9,609,750 | 9,609,750 points |
 | [LTE BaseStations](https://opencellid.org/) | 4 |10,292,460 | 10,292,460 points |
