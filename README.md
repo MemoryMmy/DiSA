@@ -39,7 +39,7 @@
 Scenario 1 demonstrates the ability to provide an interactive exploration of massive raw data in DiSA. Fig 1 shows the visualization results with different rendering styles. Specifically, patterns filling is supported for polygon objects and dataset can be plotted with different styles according to the attributes of each spatial object (e.g., the trajectories can be rendered according to the speeds or directions). Raw data exploration provides access to observe large-scale unknown spatial datasets, which is important to discover implicit in-
 formation and parameter settings for further processing. 
 
-![fig4](D:/github/DiSA/figures/fig4.JPG)
+![fig4](./figures/fig4.JPG)
 
 *Fig 1 Data exploration with various styles.*
 
