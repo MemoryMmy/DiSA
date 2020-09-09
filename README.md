@@ -7,7 +7,7 @@
 
 ***Tab1. Datasets of the demonstration***
 
-| Dataset |Scenario |Records |Size} |
+| Dataset |Scenario |Records |Size |
 | -------------- | ---------- | ---------- | -------------------- |
 | China POI |1, 2 |20,258,450  |20,258,450 points |
 | China Road |1, 2 |21,898,508  |163,171,928 segments |
