@@ -77,6 +77,10 @@ DiSA can be applied to some complex spatial analysis problems. Scenario 4 provid
 
 *Fig 5. Cellular signal strength distributions (Green:CDMA, Yellow:LTE, White:GSM, Red:UMTS)*
 
+## Citation:
+
+MA Mengyu, YANG Anran, WU Ye, et al. DiSA: A Display-driven Spatial Analysis Framework for Large-Scale Vector Data[C]// 28th International Conference on Advances in Geographic Information Systems (SIGSPATIAL). ACM, 2020
+
 ## Contact:
 
 Mengyu Ma@ National University of Defense Technology
